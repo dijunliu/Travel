@@ -31,7 +31,7 @@ export default {
         {
           id: "003",
           imgUrl:
-            "//m.360buyimg.com/mobilecms/s700x280_jfs/t1/64525/13/11604/98387/5d8d828dE0c5ed64d/a62d0d8bc8817724.jpg!cr_1125x445_0_171!q70.jpg.dpg"
+            "//m.360buyimg.com/mobilecms/s700x280_jfs/t1/48636/9/11841/72032/5d89e3ccE93c93c41/c01fef6b44d43bf5.jpg!cr_1125x445_0_171!q70.jpg.dpg"
         },
         {
           id: "004",
