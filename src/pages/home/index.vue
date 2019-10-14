@@ -26,12 +26,15 @@ export default {
   },
   components: { HomeHeader, HomeSwiper, HomeIcons, HomeRecommend, HomeWeekend },
   mounted() {
-    axios.get("/static/index.json").then(this.getinfor);
+    this.getHomeInfor();
   },
   methods: {
-    getinfor(rep) {
-      const data = rep.data.data;
-      if (rep.data.ret) {
+    getHomeInfor() {
+      axios.get("/static/index.json").then(this.getinfor);
+    },
+    getinfor(res) {
+      const data = res.data.data;
+      if (res.data.ret) {
         this.swiperList = data.swiperList;
         this.iconList = data.iconList;
         this.recommendList = data.recommendList;
